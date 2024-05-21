@@ -1,0 +1,9 @@
+spring:
+    application:
+        name: hbgateway
+server:
+    port: 8888
+
+
+hbregistry:
+    servers: http://localhost:8484

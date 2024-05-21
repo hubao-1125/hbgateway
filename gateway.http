@@ -1,0 +1,12 @@
+### hello
+GET http://localhost:8888/hello
+
+### gw
+POST http://localhost:8888/gw/io.github.hubao.hbrpc.demo.api.UserService
+Content-Type: application/json
+
+{
+  "service":"io.github.hubao.hbrpc.demo.api.UserService",
+  "methodSign":"findById@1_int",
+  "args":[100]
+}
