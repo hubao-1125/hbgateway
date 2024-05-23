@@ -1,6 +1,9 @@
 ### hello
 GET http://localhost:8888/hello
 
+### ga
+GET http://localhost:8888/ga/aaa
+
 ### gw
 POST http://localhost:8888/gw/io.github.hubao.hbrpc.demo.api.UserService
 Content-Type: application/json
