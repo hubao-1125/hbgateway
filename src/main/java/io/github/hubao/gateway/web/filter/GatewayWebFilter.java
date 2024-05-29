@@ -1,4 +1,4 @@
-package io.github.hubao.gateway;
+package io.github.hubao.gateway.web.filter;
 
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.stereotype.Component;
